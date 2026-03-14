@@ -1,0 +1,95 @@
+iniciar-programa
+ define-nueva-instruccion gira-derecha como
+	inicio
+    	gira-izquierda;
+        gira-izquierda;
+        gira-izquierda;
+    fin;
+  define-nueva-instruccion media-vuelta como
+  	inicio;
+    	gira-izquierda;
+        gira-izquierda;
+    fin;
+  define-nueva-instruccion escribe-a-m como
+  	inicio;
+    	repetir 4 veces
+        	inicio;
+            	deja-zumbador;
+                avanza;
+            fin;
+        gira-derecha;
+        repetir 2 veces
+        	inicio;
+            	avanza;
+                deja-zumbador;
+            fin;
+        avanza;
+        gira-derecha;
+        repetir 4 veces
+        	inicio;
+            	avanza;
+                deja-zumbador;
+            fin;
+        media-vuelta;
+        repetir 2 veces
+        	inicio;
+            	avanza;
+            fin;
+        gira-izquierda;
+        repetir 2 veces
+        	inicio;
+            	avanza;
+                deja-zumbador;
+            fin;
+        media-vuelta;
+        repetir 4 veces
+        	inicio;
+            	avanza;
+            fin;
+        gira-derecha;
+        repetir 3 veces
+        	inicio;
+            	deja-zumbador;
+                avanza;
+            fin;
+        media-vuelta;
+        repetir 3 veces
+        	inicio;
+            	avanza,;
+           fin;
+        repetir 2 veces
+        	inicio;
+            	avanza;
+                deja-zumbador;
+            fin;
+        gira-derecha;
+        avanza;
+        gira-derecha;
+        avanza;
+        deja-zumbador;
+        gira-izquierda;
+        avanza;
+        gira-derecha;
+        avanza;
+        deja-zumbador;
+        gira-izquierda;
+        avanza;
+        gira-izquierda;
+        avanza;
+        deja-zumbador;
+        avanza;
+        gira-derecha;
+        avanza;
+        deja-zumbador;
+        gira-derecha;
+        repetir 4 veces
+        	inicio;
+            	avanza;
+                deja-zumbador;
+            fin;
+    fin;
+    inicia-ejecucion
+escribe-a-m;
+        apagate;
+    termina-ejecucion
+finalizar-programa
