@@ -1,0 +1,13 @@
+iniciar-programa
+	define-nueva-instruccion gira(axe) como
+    	inicio;
+        	repetir axe veces 
+            	inicio;
+                	gira-izquierda;
+                fin;
+       fin;
+    inicia-ejecucion
+        gira(3000);
+        apagate;
+    termina-ejecucion
+finalizar-programa
